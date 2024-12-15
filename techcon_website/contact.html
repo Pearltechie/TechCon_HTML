@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Contact Information -->
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+            <p>Follow us on:
+                <a href="https://facebook.com/TechCon" target="_blank">Facebook</a>, 
+                <a href="https://twitter.com/TechCon" target="_blank">Twitter</a>, 
+                <a href="https://instagram.com/TechCon" target="_blank">Instagram</a>
+            </p>
+        </section>
+
+        <!-- Embedded Google Map -->
+        <section id="map">
+            <h2>Conference Venue</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509589!2d-122.47825548468344!3d37.8199281797519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085818c5f4f3017%3A0x8df5b5d39b40003d!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1696871549137!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+
+        <!-- Contact Us Form -->
+        <section id="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 TechCon Conference. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
